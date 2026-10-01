@@ -3,12 +3,14 @@ body {
     min-width: 900px;
     background-color: #fffaf0;
     margin: auto;
+   
     
 }
 
 header {
     text-align: center;
     background-color: #97b0c9;
+    border-radius: 20px;
    
 }
 
@@ -16,8 +18,8 @@ header {
 header h1{
     font-family: Sunshiney, sans-serif;
     color: #FEFFFA;
-    font-size: 90px;
-    padding: 20px;
+    font-size: 70px;
+    padding-top: 20px;
     margin-top: 10px;
     font-weight: 400;
     margin-bottom: 0;
@@ -35,6 +37,7 @@ header h2 {
     height: 120px;
     background-image: url(images/Banner.png);
     background-repeat: no-repeat;
+  
     
 }
 
@@ -46,7 +49,6 @@ main {
     font-family: "Pixelify Sans", sans-serif;
     color: #3c5c33;
     padding: 30px;
-    
     margin-top: 0;
     
 }
@@ -74,8 +76,7 @@ section {
     margin: 10px;
     height: 300px;
     text-align: center;
-    margin-top: 90px;
-    margin-bottom: 90px;
+
     transition: scale .5s ease-in-out;
 }
 
@@ -86,21 +87,22 @@ section:hover{
 
 
 #banner {
-    width: 1200px;
-    height: 290px;
+    width: 1100px;
+    height: 250px;
     background-image: url(images/Cute.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin: auto;
     position: relative;
+    margin: auto;
+    border-radius: 20px;
     
 }
 
 .flower {
     scale: 20%;
     position: absolute;
-    top: -200px;
-    right: 240px;
+    top: -230px;
+    right: 200px;
     animation: spin 7s ease-in-out infinite;
 }
 
