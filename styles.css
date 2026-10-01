@@ -1,0 +1,135 @@
+body {
+    max-width: 1200px;
+    min-width: 900px;
+    background-color: #fffaf0;
+    margin: auto;
+    
+}
+
+header {
+    text-align: center;
+    background-color: #97b0c9;
+   
+}
+
+
+header h1{
+    font-family: Sunshiney, sans-serif;
+    color: #FEFFFA;
+    font-size: 90px;
+    padding: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    color: #4968a0;
+    padding: 15px;
+    margin: 0;
+    
+}
+
+#filetab {
+    height: 120px;
+    background-image: url(images/Banner.png);
+    background-repeat: no-repeat;
+    
+}
+
+
+main {
+    background-color: #d8eded;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Pixelify Sans", sans-serif;
+    color: #3c5c33;
+    padding: 30px;
+    
+    margin-top: 0;
+    
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style-type: none;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: #2F5624;
+}
+
+section {
+    background-color: #F8FBFF;
+    padding: 50px;
+    border-radius: 15px;
+    line-height: 2em;
+    flex: 1;
+    margin: 10px;
+    height: 300px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    transition: scale .5s ease-in-out;
+}
+
+section:hover{
+    scale: 110%;
+    animation: ease-in-out;
+}
+
+
+#banner {
+    width: 1200px;
+    height: 290px;
+    background-image: url(images/Cute.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+    
+}
+
+.flower {
+    scale: 20%;
+    position: absolute;
+    top: -200px;
+    right: 240px;
+    animation: spin 7s ease-in-out infinite;
+}
+
+@keyframes spin {
+    0%{rotate: 0deg;}
+    100%{rotate: 360deg;}
+
+}
+
+footer {
+    background-color: #6e99ac;
+    font-family: Sunshiney;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 20px;
+}
+
+address a {
+    text-decoration: none;
+    color: #FEFFFA;
+}
+
+section h2:hover{
+    color: #b67d3f;
+
+}
+
+
