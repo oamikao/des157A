@@ -1,23 +1,23 @@
 body {
-    max-width: 1200px;
-    min-width: 900px;
     background-color: #fffaf0;
     margin: auto;
-    
+    padding: 10px;
+    max-width: 1200px;
 }
 
 header {
     text-align: center;
     background-color: #97b0c9;
-   
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-
 
 header h1{
     font-family: Sunshiney, sans-serif;
     color: #FEFFFA;
-    font-size: 90px;
-    padding: 20px;
+    font-size: 70px;
+    padding: 10px;
+    padding-bottom: 0;
     margin-top: 10px;
     font-weight: 400;
     margin-bottom: 0;
@@ -28,6 +28,7 @@ header h2 {
     color: #4968a0;
     padding: 15px;
     margin: 0;
+    padding-top: 0;
     
 }
 
@@ -46,8 +47,8 @@ main {
     font-family: "Pixelify Sans", sans-serif;
     color: #3c5c33;
     padding: 30px;
-    
     margin-top: 0;
+    max-width: 1200px;
     
 }
 
@@ -74,8 +75,8 @@ section {
     margin: 10px;
     height: 300px;
     text-align: center;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 20px;
+    margin-bottom: 7px;
     transition: scale .5s ease-in-out;
 }
 
@@ -86,13 +87,15 @@ section:hover{
 
 
 #banner {
-    width: 1200px;
-    height: 290px;
+    max-width: 1200px;
+    height: 250px;
     background-image: url(images/Cute.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
     position: relative;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     
 }
 
