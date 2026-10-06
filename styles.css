@@ -123,6 +123,8 @@ footer {
     font-family: Sunshiney;
     color: #FFFFFF;
     text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 footer p {
