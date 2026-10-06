@@ -12,9 +12,28 @@
     <h1>Experiment 1</h1>
     <h2>Open the console to see the code</h2>
 
+    <!-- Write a program that reverses the letters in each word in a string of words, but keeps the words in the same order. -->
 
     <script>
-        var stringA = prompt("Enter a short sentence!");
+        var input  = "Here is a sentence that has many words!";
+        var newInput = "";
+        var capitalize = true;
+        for (var i=0; i<input.length; i++) {
+            if(capitalize){
+                newInput += input[i].toUpperCase();
+                capitalize = false;
+             
+            } else {
+                if (input[i] === " "){
+                    capitalize = true;
+                }
+                newInput += input[i];
+            }
+        }
+
+        console.log(newInput);
+
+        
 
         
 
