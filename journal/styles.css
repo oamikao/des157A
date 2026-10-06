@@ -21,6 +21,19 @@ header h1{
     font-weight: 400;
 }
 
+.homenav ul li a{
+    text-decoration: underline;
+    font-family: Cause;
+    text-align: center;    
+    color: #306984;
+    font-size: 20px;
+}
+
+.homenav ul {
+    list-style-type:none;
+    text-align: center;
+}
+
 article {
    padding: 30px;
    border: #83b2c5;
