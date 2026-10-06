@@ -15,7 +15,7 @@ header {
 
 header h1{
     font-family: Sunshiney, sans-serif;
-    color: #FEFFFA;
+    color: #fffffd;
     font-size: 70px;
     padding: 10px;
     font-weight: 400;
@@ -35,6 +35,8 @@ article p{
     max-width: 800px;
     margin: auto;
     padding: 5px;
+    font-family: Cause;
+    
 }
 
 article a {
@@ -47,6 +49,7 @@ article a {
     font-size: 22px;
     text-align: center;
     padding-bottom: 10px;
+    font-family: "Cause", sans-serif;
 }
 
 .titles h2 {

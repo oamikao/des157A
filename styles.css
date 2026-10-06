@@ -67,6 +67,10 @@ ul li a {
     color: #2F5624;
 }
 
+ul li a:hover {
+    color: #b67d3f;
+}
+
 section {
     background-color: #F8FBFF;
     padding: 50px;
