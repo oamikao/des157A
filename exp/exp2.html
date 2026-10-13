@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2 with Functions and DOM</title>
+
+    <style>
+        
+        body {
+            margin: auto;
+            
+            text-align: center;
+            background-color: rgb(230, 243, 255);
+
+        }
+        h1{
+            font-size: 50px;
+            color: rgb(59, 81, 194);
+        }
+
+        p {
+            font-size: 25px;
+            color: rgb(43, 99, 183);
+        }
+        
+        #result {
+            background-color: white;
+            padding: 10px;
+            max-width: 500px;
+            margin: auto;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <h1> Fortune Cookie </h1>
+    <p>Today's fortune reads....</p>
+    <p id="result"> - waiting for a number - </p>
+
+    <script>
+        var userNum = prompt("Receive your daily fortune. Pick a number from 1 - 5");
+        var numberList = [7, 8, 13, 21, 42, 111, 555, 777]
+       
+
+        function fortuneResult(){
+
+            var numOfValues = numberList.length;
+            var randomNum = Math.random();
+            var randomVal = randomNum * numOfValues;
+            var roundedRandomVal = Math.floor(randomVal);
+            var luckyNum = roundedRandomVal;
+            console.log (luckyNum);
+
+            if (userNum === null || userNum === ""){
+            document.querySelector("#result").textContent = "You didn't enter a number between 1-5";
+          }
+          else {
+            document.querySelector("#result").textContent =  `only the wisest readers recieve fortunes...`;
+          }
+
+          
+            if (userNum === "1"){
+            document.querySelector("#result").textContent = `A friend will treat you to icecream today. Your lucky number is ${numberList[luckyNum]}`;
+          }
+
+            if (userNum === "2"){
+            document.querySelector("#result").textContent = `You will soon recieve an indicator of great academic success. Your lucky number is ${numberList[luckyNum]}`;
+          }
+
+            if (userNum === "3"){
+            document.querySelector("#result").textContent = `Money is in your near future. Your lucky number is ${numberList[luckyNum]}`;
+          }
+
+            if (userNum === "4"){
+            document.querySelector("#result").textContent = `The week will treat you well, your stress will soon go away. Your lucky number is ${numberList[luckyNum]}`;;
+          }
+
+            if (userNum === "5"){
+            document.querySelector("#result").textContent = `You will be successful with the next skill you learn. Your lucky number is ${numberList[luckyNum]}`;;
+          }
+
+          
+          
+
+        }
+
+        fortuneResult();
+
+    
+    
+    </script>
+    
+</body>
+
+
+</html>
