@@ -42,7 +42,7 @@
     <p>Today's fortune reads....</p>
     <p id="result"> - waiting for a number - </p>
 
-    <script>
+    <script> /* the user is asked to pick a number from 1-5, and then recieves a mystery fortune followed by a random lucky number */
         var userNum = prompt("Receive your daily fortune. Pick a number from 1 - 5");
         var numberList = [7, 8, 13, 21, 42, 111, 555, 777]
        
@@ -84,14 +84,9 @@
             document.querySelector("#result").textContent = `You will be successful with the next skill you learn. Your lucky number is ${numberList[luckyNum]}`;;
           }
 
-          
-          
-
         }
 
         fortuneResult();
-
-    
     
     </script>
     
