@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    background-color: #3964a5;
+    background-color: #325995;
     
 }
 
@@ -10,14 +10,14 @@ header {
     background-image: url(images/pencil.png);
     background-repeat: no-repeat;
     background-position: 53%;
-    background-size: 750px;
+    background-size: 650px;
     margin: 0;
 }
 
 header h1 {
     font-family: "Schoolbell", cursive;
     color: #101668;
-    font-size: 50px;
+    font-size: 35px;
     margin: 25px;
 }
 
@@ -32,6 +32,7 @@ main {
 main form, button {
     font-family: "Jua";
     color: #394097;
+    font-size: 14px;
 }
 
 main p {
@@ -59,7 +60,7 @@ main p {
     border-radius: 20px;
     margin: 10px;
     max-width: 750px;
-    margin-left: 90px;
+    margin-left: 80px;
     box-shadow: 7px 7px 0 2px #2c427c;
 }
 
@@ -73,7 +74,7 @@ main p {
 
 #result p {
     line-height: 2.25em;
-    font-size: 20px;
+    font-size: 17px;
     margin: 20px;
     
 }
@@ -101,7 +102,7 @@ form input {
     font-size: 20px;
     border-radius: 5px;
     margin-top: auto;
-    background-color: #6b72dc;
+    background-color: #324cb1;
     color: #fff7e9;
     margin-top: 30px;
 }
