@@ -62,6 +62,8 @@ main p {
     max-width: 750px;
     margin-left: 80px;
     box-shadow: 7px 7px 0 2px #2c427c;
+    min-width: 400px;
+    display: none;
 }
 
 #result h1 {
