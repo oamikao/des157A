@@ -64,8 +64,13 @@ main p {
     max-width: 750px;
     margin-left: 80px;
     box-shadow: 7px 7px 0 2px #2c427c;
+<<<<<<< HEAD
     
 
+=======
+    min-width: 400px;
+    display: none;
+>>>>>>> ee07bd951447f821aa8ec2a6a9991641a1472f91
 }
 
 
