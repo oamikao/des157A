@@ -53,7 +53,9 @@ main p {
 
 
 
-#result{
+
+.result-shown{
+    display: block;
     flex: 2;
     padding: 20px;
     background-color: rgb(255, 248, 244);
@@ -62,9 +64,13 @@ main p {
     max-width: 750px;
     margin-left: 80px;
     box-shadow: 7px 7px 0 2px #2c427c;
+    
+
 }
 
-#result h1 {
+
+
+.result-shown h1 {
     text-align: center;
     margin: 0;
     font-family: "Schoolbell";
@@ -72,7 +78,7 @@ main p {
 
 }
 
-#result p {
+.result-shown p {
     line-height: 2.25em;
     font-size: 17px;
     margin: 20px;
@@ -101,10 +107,10 @@ form input {
     padding: 5px;
     font-size: 20px;
     border-radius: 5px;
-    margin-top: auto;
     background-color: #324cb1;
     color: #fff7e9;
-    margin-top: 30px;
+    margin-bottom: 10px;
+    
 }
 
 
