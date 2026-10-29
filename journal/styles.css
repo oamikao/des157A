@@ -58,6 +58,28 @@ article a {
 
 }
 
+article h3 {
+    font-family: Sunshiney;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 40px;
+}
+
+figcaption{
+    text-align: center;
+    font-family: Cause;
+    font-size: 14px;
+    margin-bottom: 20px;
+    
+}
+
+article img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
 .titles {
     font-size: 22px;
     text-align: center;
