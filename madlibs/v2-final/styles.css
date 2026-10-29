@@ -29,7 +29,6 @@ main {
     
 }
 
-
 main form, button {
     font-family: "Jua";
     color: #394097;
@@ -65,14 +64,9 @@ main p {
     max-width: 750px;
     margin-left: 80px;
     box-shadow: 7px 7px 0 2px #2c427c;
-}
+    
 
-.result-shown img {
-    width: 20%;
-    display: block;
-    margin: auto;
 }
-
 
 
 
@@ -88,11 +82,8 @@ main p {
     line-height: 2.25em;
     font-size: 17px;
     margin: 20px;
-    color: #23286f;
     
 }
-
-
 
 form input {
     padding: 10px;
@@ -119,13 +110,7 @@ form input {
     background-color: #324cb1;
     color: #fff7e9;
     margin-bottom: 10px;
-    transition: transform 1s ease;
     
-}
-
-#inputform button:hover {
-    background-color: #101668;
-    transform: scale(1.15);
 }
 
 
@@ -142,12 +127,10 @@ form input {
 input[type="text"]:focus {
     border: 1px solid #D6D9DC;
     outline: solid rgb(92, 89, 218);
-    background-color: #cad7e3;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 input[type="number"]:focus {
     border: 1px solid #D6D9DC;
-    background-color: #cad7e3;
     outline: solid rgb(110, 78, 140);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

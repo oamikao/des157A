@@ -1,0 +1,153 @@
+body {
+    margin: auto;
+    background-color: #325995;
+    
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-image: url(images/pencil.png);
+    background-repeat: no-repeat;
+    background-position: 53%;
+    background-size: 650px;
+    margin: 0;
+}
+
+header h1 {
+    font-family: "Schoolbell", cursive;
+    color: #101668;
+    font-size: 35px;
+    margin: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    margin-top: 10px;
+    
+}
+
+
+main form, button {
+    font-family: "Jua";
+    color: #394097;
+    font-size: 14px;
+}
+
+main p {
+    font-family: "Jua";
+    color: #40527e;
+}
+
+#inputform{
+    background-color: rgb(255, 248, 244);
+    padding: 10px;
+    border-radius: 20px;
+    flex: 1;
+    margin: 10px;
+    max-width: 550px;
+    box-shadow: 7px 7px 0 2px #344a7f;
+    max-height: 650px;
+}
+
+
+
+
+.result-shown{
+    display: block;
+    flex: 2;
+    padding: 20px;
+    background-color: rgb(255, 248, 244);
+    border-radius: 20px;
+    margin: 10px;
+    max-width: 750px;
+    margin-left: 80px;
+    box-shadow: 7px 7px 0 2px #2c427c;
+}
+
+.result-shown img {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+.result-shown h1 {
+    text-align: center;
+    margin: 0;
+    font-family: "Schoolbell";
+    color: #324e8b;
+
+}
+
+.result-shown p {
+    line-height: 2.25em;
+    font-size: 17px;
+    margin: 20px;
+    color: #23286f;
+    
+}
+
+
+
+form input {
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+
+
+#wordForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#inputform button {
+    display: block;
+    margin: auto;
+    width: 120px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #324cb1;
+    color: #fff7e9;
+    margin-bottom: 10px;
+    transition: transform 1s ease;
+    
+}
+
+#inputform button:hover {
+    background-color: #101668;
+    transform: scale(1.15);
+}
+
+
+#inputform h1 {
+    text-align: center;
+    font-family: "Schoolbell";
+    color: #394097;
+}
+
+.formsection {
+    text-align: center;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #D6D9DC;
+    outline: solid rgb(92, 89, 218);
+    background-color: #cad7e3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type="number"]:focus {
+    border: 1px solid #D6D9DC;
+    background-color: #cad7e3;
+    outline: solid rgb(110, 78, 140);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
