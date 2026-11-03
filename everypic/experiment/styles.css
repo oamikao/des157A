@@ -1,0 +1,38 @@
+.cont {
+    margin: auto;
+    width: 600px;
+    max-width: 1000px;
+    position: relative;
+}
+
+main {
+    background-image:url(images/bgimg.jpg);
+    height: 470px;
+    width: 600px;
+}
+
+#sticker {
+    transition: 1s ease;
+}
+
+#sticker:hover {
+   scale: 2;
+}
+
+svg, img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+}
+
+svg {
+    
+    z-index: -1;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(131, 64, 16);
+}
