@@ -1,17 +1,21 @@
 .cont {
     margin: auto;
-    width: 600px;
-    max-width: 1000px;
     position: relative;
 }
 
 main {
     background-image:url(images/bgimg.jpg);
-    height: 470px;
+    height: 478px;
     width: 600px;
 }
 
-#sticker {
+img {
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    width: 30%;
+}
+#sticker{
     transition: 1s ease;
 }
 
@@ -19,17 +23,12 @@ main {
    scale: 2;
 }
 
-svg, img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-   
-}
 
+
+ 
 svg {
+    opacity: 1;
     
-    z-index: -1;
 }
 
 p {
