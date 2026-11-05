@@ -18,9 +18,9 @@
     
     <main> 
         <div class="cont">        
-            <img src="images/img.png" alt="transparent img" id="sticker"></img>
-            <svg viewBox="0 0 600 478" fill="none" xmlns="http://www.w3.org/2000/svg">
-                 <path d="M273.5 189.5L287.5 196L295 189.5L302 187H314H323L335.5 196L338 207L345.5 210C347.667 211.667 352 215.7 352 218.5C352 221.3 357.333 222.667 360 223L367.5 226C369.833 229.333 374.5 236.9 374.5 240.5V248.5C372.833 250.5 369.1 254.8 367.5 256C365.9 257.2 366.833 260.833 367.5 262.5L374.5 273.5V280.5C371.167 282 363.6 285.6 360 288C356.4 290.4 358.5 293.333 360 294.5L352 298.5V304.5L341.5 307.5L332.5 317H317.5C313 315.167 303.6 310.7 302 307.5C300.4 304.3 296.667 297.5 295 294.5H285.5L273.5 293L263 298.5L254.5 304.5L240 298.5C237.833 299.167 232.7 300.1 229.5 298.5C225.5 296.5 214.5 296.5 214.5 293V285L207.5 280.5C206.667 278.167 205 272.9 205 270.5V262.5L214.5 253.5V240.5V230.5L219.5 223V215L224 207L233.5 202.5V196L249.5 189.5H273.5Z" fill="#B8B8B8" id="svgbox"/> 
+            <img src="images/img.png" alt="transparent img" id="sticker">
+            <svg viewBox="0 0 171 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M69 3L83 9.5L90.5 3L97.5 0.5H109.5H118.5L131 9.5L133.5 20.5L141 23.5C143.167 25.1667 147.5 29.2 147.5 32C147.5 34.8 152.833 36.1667 155.5 36.5L163 39.5C165.333 42.8333 170 50.4 170 54V62C168.333 64 164.6 68.3 163 69.5C161.4 70.7 162.333 74.3333 163 76L170 87V94C166.667 95.5 159.1 99.1 155.5 101.5C151.9 103.9 154 106.833 155.5 108L147.5 112V118L137 121L128 130.5H113C108.5 128.667 99.1 124.2 97.5 121C95.9 117.8 92.1667 111 90.5 108H81L69 106.5L58.5 112L50 118L35.5 112C33.3333 112.667 28.2 113.6 25 112C21 110 10 110 10 106.5V98.5L3 94C2.16667 91.6667 0.5 86.4 0.5 84V76L10 67V54V44L15 36.5V28.5L19.5 20.5L29 16V9.5L45 3H69Z" fill="#B8B8B8" stroke="#8E8E8E" id="sticker-svg"/>
             </svg>
         </div>
     </main>
@@ -28,15 +28,15 @@
   
 </body>
 
-</html>
-
 <script>
     console.log('reading JS');
     const info = document.querySelector('.info');
    
-    document.querySelector('#sticker').addEventListener('mouseover', function(){
+    document.querySelector('svg').addEventListener('mouseover', function(){
         console.log('over sticker');
         info.innerHTML = 'this is a sticker! Some sort of good luck charm';
+        document.querySelector('#sticker').className="large";
+        document.querySelector('#sticker-svg').classList.add('large');
     });
 
     document.querySelector('#sticker').addEventListener('mouseout', function(){
@@ -44,3 +44,6 @@
     });
 
 </script>
+
+</html>
+
