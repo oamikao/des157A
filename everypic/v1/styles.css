@@ -1,0 +1,58 @@
+
+body {
+    
+    background-color: rgb(136, 189, 181);
+
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    background-color: beige;
+   max-width: 500px;
+   padding: 3px;
+   margin-top: 25px;
+   font-family: "Walter Turncoat", cursive;
+   color: rgb(46, 80, 95);
+   font-size: 20px;
+   border-radius: 30px;
+}
+
+
+.bgbulletin {
+    display: block;
+    margin: auto;
+    padding: 30px;
+   
+}
+
+#cont {
+    position: relative;
+    display: inline-block;
+    
+}
+
+
+#allstickers img {
+    width: 150px;
+    position: absolute;
+    translate: -50%, -50%;
+}
+
+
+.stickerone {top: 5%; left: 5%;}
+
+.stickertwo {top: 45%; left: 10%;}
+
+.stickerthree {top: 49%; left: 60%;}
+
+.stickerfour {top: 10%; left: 55%;}
+
+.stickerfive {top: 30%; left: 35%;}
+
