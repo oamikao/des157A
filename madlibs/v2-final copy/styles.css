@@ -29,6 +29,9 @@ main {
     
 }
 
+button #next {
+    color: #324cb1;
+}
 
 main form, button {
     font-family: "Jua";
