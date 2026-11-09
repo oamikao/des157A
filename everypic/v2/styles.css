@@ -60,7 +60,6 @@ button  {
     border-radius: 10px;
     margin-left: 40px;
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: 1fr 1fr;
     padding: 20px;
 }
@@ -70,12 +69,6 @@ button  {
     font-family: cursive;
     color: antiquewhite;
 }
-=======
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px;
-}
-
->>>>>>> a81c0dd78830ae93b3d32be11990aa43a26a121c
 
 #stickerone:hover { scale: 1.3;}
 #stickertwo:hover { scale: 1.3;}
