@@ -6,6 +6,13 @@
     let currentImg = 0;
     const slide = document.querySelector('#bgbulletin');
    /*  const sticker1 = document.querySelector('#stickerone'); */
+   const reset = document.querySelector('#reset');
+   const allStickers = document.querySelectorAll('#draggable');
+
+   //create position reset by removing position styling on stickers
+   //crop all bacgkrund images to be similar sizes 
+
+   
 
     document.querySelector('#next').addEventListener('click', nextPhoto); //runs through images as slideshow
 
@@ -28,5 +35,13 @@
     sticker1.addEventListener('click', function(){
         sticker1.classList.toggle('scale');
   }) */
+
+    reset.addEventListener('click', function(){
+        for (let i =0; i < allStickers.length; i++){
+            allStickers.style.position = "";
+        }
+
+    });
+
    
 })();
