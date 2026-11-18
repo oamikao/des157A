@@ -5,7 +5,7 @@
     const myImages = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg']; 
     let currentImg = 0;
     const slide = document.querySelector('#bgbulletin');
-   /*  const sticker1 = document.querySelector('#stickerone'); */
+
 
     document.querySelector('#next').addEventListener('click', nextPhoto); //runs through images as slideshow
 
@@ -24,9 +24,6 @@
         $('.droppable').droppable();
     })
 
-/* 
-    sticker1.addEventListener('click', function(){
-        sticker1.classList.toggle('scale');
-  }) */
+
    
 })();
