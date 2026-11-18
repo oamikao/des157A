@@ -6,7 +6,6 @@
     let currentImg = 0;
     const slide = document.querySelector('#bgbulletin');
 
-
     document.querySelector('#next').addEventListener('click', nextPhoto); //runs through images as slideshow
 
     function nextPhoto(){ //slideshow functiom
